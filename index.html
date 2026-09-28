@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Del Rosario - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Victor Del Rosario</h1>
+        <p>Associate in Science - Computer Science | Expected May 2026</p>
+        <p>Schaumburg, IL • (773) 531-2275 • <a href="mailto:delrosariovictor12@gmail.com">delrosariovictor12@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/victor-del-rosario-a15b24279/" target="_blank">LinkedIn</a></p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Motivated Computer Science student with knowledge in cloud computing. Skilled in coding solutions to real-world problems with proficiency in C++ and Python. Bilingual in English and Spanish; basic Italian. Experienced in technical teamwork, business software, and forklift operations. Dedicated to advancing technical knowledge and contributing to innovative projects.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Languages:</strong> C++, Python, some Java</li>
+            <li><strong>Tools & Platforms:</strong> Microsoft Office, Git, AWS basics, LM Studio, Telethon, SQLite, MetaTrader 5 (via MQL5 Expert Advisor)</li>
+            <li><strong>Certifications:</strong> Generative AI Fundamentals (Databricks, July 2026); Learn C++ Course (Codecademy, 2026)</li>
+            <li><strong>Soft Skills:</strong> Teamwork, Communication, Problem Solving, Process-Oriented Thinking</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <article class="project">
+            <h3>MT5 Telegram Signal Trading Bot</h3>
+            <p><strong>Role:</strong> Full‑Stack Developer (Python backend + MQL5 Expert Advisor)</p>
+            <p><strong>Description:</strong> Built an automated trading system that ingests Telegram trade signals, validates them via a hybrid regex/local‑LLM parser, and executes orders in MetaTrader 5 with risk‑managed multi‑TP positioning.</p>
+            <p><strong>Tech Stack:</strong> Python, Telethon, LM Studio (local LLM), SQLite, MetaTrader 5 (MQL5 Expert Advisor – SignalExecutor), Windows Task Scheduler.</p>
+            <p><strong>Key Features:</strong>
+                <ul>
+                    <li>6:00‑07:00 local‑time window for new signal entries; 24/7 position management (TP1 partial close, breakeven ratchet, ATR trailing).</li>
+                    <li>Local LLM fallback to regex‑only parsing – no external API costs.</li>
+                    <li>Crash recovery via SQLite persistence; active targets reconciled on restart.</li>
+                    <li>Dynamic lot sizing based on contract size and risk percent; handles broker‑specific filling modes.</li>
+                </ul>
+            </p>
+            <p><strong>Outcome:</strong> Verified end‑to‑end: signal → EA → order placement with detailed logs; successfully traded EURUSD, GBPUSD, XAUUSD on AAAFx demo.</p>
+            <p><strong>Links:</strong> <a href="https://github.com/yourusername/mt5-signal-bot" target="_blank">GitHub Repository</a> (sanitized version)</p>
+        </article>
+
+        <article class="project">
+            <h3>God’s Eye View – Modular Web Dashboard</h3>
+            <p><strong>Role:</strong> Front‑End Developer</p>
+            <p><strong>Description:</strong> A template‑driven UI framework built with HTML5, CSS3, and vanilla JavaScript that loads reusable components (scene‑chrome, cockpit, display‑controls, command‑dock, layer‑panels, context, welcome, provider‑settings, hud‑loading) to create a customizable dashboard.</p>
+            <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript (ES6 modules), Google Fonts (JetBrains Mono, Inter), Material Icons.</p>
+            <p><strong>Key Features:</strong>
+                <ul>
+                    <li>Component‑based architecture using HTML comments as template placeholders (e.g., <!-- gev:template cockpit -->).</li>
+                    <li>Responsive layout with Flexbox‑friendly styling.</li>
+                    <li>Easy extension: new panels added by creating a template file and referencing it in the base HTML.</li>
+                </ul>
+            </p>
+            <p><strong>Outcome:</strong> Demonstrates ability to craft maintainable, modular front‑ends; serves as a foundation for more complex internal tools or monitoring dashboards.</p>
+            <p><strong>Links:</strong> <a href="https://github.com/yourusername/gods-eye-view" target="_blank">GitHub Repository</a> | <a href="https://yourusername.github.io/gods-eye-view/" target="_blank">Live Demo (GitHub Pages)</a></p>
+        </article>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Amazon RFD4</strong> – Warehouse Associate (June 2024 – April 2026)
+                <ul>
+                    <li>Jammed clear, inbound/outbound operations, forklift operation.</li>
+                    <li>Followed SOPs, maintained safety and efficiency in a high‑volume logistics environment.</li>
+                </ul>
+            </li>
+            <li><strong>Valli Produce</strong> – Server/Pick‑Up Caller (Jan 2024 – Jun 2024)
+                <ul>
+                    <li>Assisted customers with grocery orders, managed pick‑up services.</li>
+                    <li>Trained in inbound/outbound flow, end‑of‑line processing, PIT operations, jam clearing.</li>
+                </ul>
+            </li>
+            <li><strong>McDonald’s</strong> – Cashier (Aug 2023 – Oct 2023)
+                <ul>
+                    <li>Provided fast, friendly service; handled transactions efficiently; maintained cleanliness.</li>
+                </ul>
+            </li>
+            <li><strong>Volunteer – Schaumburg High School ESL Department</strong> – Teacher Assistant (Sep 2023 – Dec 2024)
+                <ul>
+                    <li>Assisted ESL students with homework, focusing on language and academic skill development.</li>
+                </ul>
+            </li>
+            <li><strong>Volunteer – Sockers F.C. Soccer Club</strong> – Coach Assistant (Dec 2023 – Jan 2024)
+                <ul>
+                    <li>Supported youth soccer practices, helping players improve technical skills and teamwork.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Victor Del Rosario. All rights reserved.</p>
+    </footer>
+</body>
+</html>
