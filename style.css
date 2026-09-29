@@ -12,6 +12,7 @@ header {
     color: white;
     text-align: center;
     padding: 3rem 1rem;
+    position: relative;
 }
 
 header h1 {
@@ -24,6 +25,18 @@ header p {
     margin: 0.5rem 0 0;
     opacity: 0.9;
     font-size: 1.1rem;
+}
+
+header .badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #ff6b6b;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 section {
@@ -52,6 +65,11 @@ ul li {
     border-left: 4px solid #3498db;
     border-radius: 0 8px 8px 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skill {
+    display: block;
+    margin: 0.5rem 0;
 }
 
 .project {
